@@ -1,0 +1,21 @@
+
+a:hover {
+  color: #000000;
+}
+
+body.dark {
+  background: #111;
+  color: #f5f5f5;
+}
+h1 { color: rgb(255, 251, 251); }
+.info { color: gray; }
+#highlight { background: yellow; }
+body { color: #ffffff; background: #ed8319; font-family: Arial, Helvetica, sans-serif; }
+h1 { font-size: 36px; }
+.card { background: white; padding: 16px; margin: 16px 0; border: 1px solid #ddd; border-radius: 8px; }
+.nav { display: flex; gap: 12px; }
+.nava { padding: 8px 12px; background: #b5b5b5; text-decoration: none; border-radius: 6px; }
+@media (max-width: 600px) 
+{
+  .nav { flex-direction: column; }
+}
